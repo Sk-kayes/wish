@@ -104,7 +104,7 @@
             // Remove shake class after animation
             setTimeout(() => {
                 popup.classList.remove('shake');
-            }, 500);
+            }, 1500);
             
             // Optional: Change question text temporarily
             const question = popup.querySelector('.question');
