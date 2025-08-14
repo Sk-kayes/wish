@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Question for You... 💖</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="last.css">
 </head>
+
 <body>
     <!-- Floating hearts background -->
     <div class="floating-hearts" id="floatingHearts"></div>
@@ -14,13 +18,13 @@
     <!-- Main container -->
     <div class="container">
         <h1 class="title">Ese hi thodi na milega 😏😏</h1>
-        
+
         <div class="popup" id="popup">
             <div class="question">
                 Nishu humesha mera rahogi na 🥺? <br>
                 Mujhse Shadi Karoge na 💍💘?
             </div>
-            
+
             <div class="buttons">
                 <button class="btn btn-yes" id="yesBtn">
                     ✅ Yes, my love 😘
@@ -34,9 +38,16 @@
 
     <!-- Success message -->
     <div class="success-message" id="successMessage">
+
+        <!-- Audio -->
+        <audio id="bgMusic" autoplay muted loop>
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+
         <div class="success-text">
             You just made me the happiest person alive! 💖🥹
         </div>
+        
         <div class="success-quote">
             "Happyyy Girlfriend Dayy" ✨
         </div>
@@ -44,4 +55,5 @@
 
     <script src="last.js"></script>
 </body>
+
 </html>
