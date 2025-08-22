@@ -102,17 +102,17 @@ function addPhoto(cardIndex, imageUrl) {
 }
 
 // Example usage (you can call these in the browser console):
-addPhoto(1, 'img-1.jpg');
-addPhoto(2, 'img-2.jpg');
-addPhoto(3, 'img-3.jpg');
-addPhoto(4, 'img-4.jpg');
-addPhoto(5, 'img-5.jpg');
-addPhoto(6, 'img-6.jpg');
-addPhoto(7, 'img-7.jpg');
-addPhoto(8, 'img-8.jpg');
-addPhoto(9, 'img-9.jpg');
-addPhoto(10, 'img-10.jpg');
-addPhoto(11, 'img-11.jpg');
-addPhoto(12, 'img-12.jpg');
+addPhoto(1, 'img1.jpg');
+addPhoto(2, 'img2.jpg');
+addPhoto(3, 'img3.jpg');
+addPhoto(4, 'img4.jpg');
+addPhoto(5, 'img5.jpg');
+addPhoto(6, 'img6.jpg');
+addPhoto(7, 'img7.jpg');
+addPhoto(8, 'img8.jpg');
+addPhoto(9, 'img9.jpg');
+addPhoto(10, 'img10.jpg');
+addPhoto(11, 'img11.jpg');
+addPhoto(12, 'img12.jpg');
 // addPhoto(2, 'path/to/your/second-photo.jpg');
 // etc.
